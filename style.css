@@ -1,0 +1,57 @@
+body{
+    background-color: bisque;
+    background: linear-gradient(to top left, rgb(214, 201, 13), white);
+    color:black;
+    background-attachment: fixed;
+    }
+    
+    .yellowBalloon{
+         width: 100px;
+         height: 132px;
+    }
+     
+    .redBalloon{
+         width: 100px;
+         height: 132px;
+    }  
+    
+    
+    #wrapper{ 
+         text-align:center ;
+         max-width: 800px;
+         margin: auto;
+    }
+      
+    #restart {
+         background-color: #dfd80b;
+            color: #090000;
+            padding: 16px 50px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.928);
+            border: none;
+            color: #d0d028;
+            text-shadow: 2px 2px 4px rgb(0, 1, 1);
+       }
+       
+       #gameTitle {
+         color: #b0af5a;
+         text-shadow: 2px 2px 4px rgb(0, 1, 1);
+         }
+       
+          #gameInstuctions{
+          color: #b3b339;
+          text-shadow: 2px 2px 4px rgb(0, 1, 1);
+         }
+
+         #message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none; 
+        }
+
+        #gameResult {
+            font-size: 2rem; 
+        }
+        
